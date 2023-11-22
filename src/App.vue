@@ -14,7 +14,7 @@
     <h3>mint要输入私钥，请尽量用小号私钥填充，代码开源在<a href="https://github.com/minchenzz/aval-mint" target="_blank">github</a>，如担心安全问题请自行下载并部署该服务</h3>
     <p>author: <a href="https://twitter.com/chenmin22998595" target="_blank">@chems</a></p>
     <ul>
-      <li v-for="tx in confirmedTxHashs">已完成交易：<a :href="'https://polygonscan.com/tx/'+tx" target="_blank">{{ tx }}</a></li>
+      <li v-for="tx in confirmedTxHashs">已完成交易：<a :href="'https://www.oklink.com/cn/avax/tx/'+tx" target="_blank">{{ tx }}</a></li>
     </ul>
 
   </div>
