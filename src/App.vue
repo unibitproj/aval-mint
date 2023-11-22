@@ -87,6 +87,7 @@ const start = async () => {
     await start2()
   } catch (e) {
     console.log(e)
+    alert(e)
   }
   doing.value = false
 }
